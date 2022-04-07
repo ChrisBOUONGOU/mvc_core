@@ -9,7 +9,7 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "kurisushinjiro\\phpmvc": "."
+            "kurisushinjiro\\phpmvc\\": "."
         }
     }
 }
