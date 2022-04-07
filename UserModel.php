@@ -1,14 +1,14 @@
 <?php
 
-namespace app\core;
+namespace kurisushinjiro\phpmvc;
 
-use app\core\db\DbModel;
+use kurisushinjiro\phpmvc\db\DbModel;
 
 /**
  * Class UserModel
  * 
  * @author Chris Boukongou <chrisbouk@outlook.fr>
- * @package app\core
+ * @package kurisushinjiro\phpmvc
  */
 
 abstract class UserModel extends DbModel

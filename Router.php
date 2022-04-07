@@ -1,15 +1,15 @@
 <?php
 
-namespace app\core;
+namespace kurisushinjiro\phpmvc;
 
-use app\core\exception\ForbiddenException;
-use app\core\exception\NotFoundException;
+use kurisushinjiro\phpmvc\exception\ForbiddenException;
+use kurisushinjiro\phpmvc\exception\NotFoundException;
 
 /**
  * Class Router
  * 
  * @author Chris Boukongou <chrisbouk@outlook.fr>
- * @package app\core
+ * @package kurisushinjiro\phpmvc
  */
 
 
@@ -22,8 +22,8 @@ class Router
     /**
      * Router constructor
      * 
-     * @param \app\core\Request $request
-     * @param \app\core\Response $response
+     * @param \kurisushinjiro\phpmvc\Request $request
+     * @param \kurisushinjiro\phpmvc\Response $response
      */
 
     public function __construct(Request $request, Response $response)
@@ -55,7 +55,7 @@ class Router
             return Application::$app->view->renderView($callback);
         }
         if (is_array($callback)) {
-            /** @var \app\core\Controller $controller */
+            /** @var \kurisushinjiro\phpmvc\Controller $controller */
             $controller = new $callback[0]();
             Application::$app->controller = $controller;
             $controller->action = $callback[1];

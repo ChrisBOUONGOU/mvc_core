@@ -1,14 +1,14 @@
 <?php
 
-namespace app\core\form;
+namespace kurisushinjiro\phpmvc\form;
 
-use app\core\Model;
+use kurisushinjiro\phpmvc\Model;
 
 /**
  * Class Form
  * 
  * @author Chris Boukongou <chrisbouk@outlook.fr>
- * @package app\core\form
+ * @package kurisushinjiro\phpmvc\form
  */
 
 class Form

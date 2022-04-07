@@ -1,14 +1,14 @@
 <?php
 
-namespace app\core;
+namespace kurisushinjiro\phpmvc;
 
-use app\core\middlewares\BaseMiddleware;
+use kurisushinjiro\phpmvc\middlewares\BaseMiddleware;
 
 /**
  * Class Controller
  * 
  * @author Chris Boukongou <chrisbouk@outlook.fr>
- * @package app\core
+ * @package kurisushinjiro\phpmvc
  */
 
 class Controller
@@ -17,7 +17,7 @@ class Controller
     public string $action = '';
 
     /**
-     * @var \app\core\middlewares\BaseMiddleware[]
+     * @var \kurisushinjiro\phpmvc\middlewares\BaseMiddleware[]
      */
     public array $middlewares = [];
 
@@ -37,7 +37,7 @@ class Controller
     }
 
     /**
-     * @return \app\core\middlewares\BaseMiddleware[]
+     * @return \kurisushinjiro\phpmvc\middlewares\BaseMiddleware[]
      */
     public function getMiddlewares(): array
     {

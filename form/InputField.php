@@ -1,14 +1,14 @@
 <?php
 
-namespace app\core\form;
+namespace kurisushinjiro\phpmvc\form;
 
-use app\core\Model;
+use kurisushinjiro\phpmvc\Model;
 
 /**
  * Class InputField
  * 
  * @author Chris Boukongou <chrisbouk@outlook.fr>
- * @package app\core\form
+ * @package kurisushinjiro\phpmvc\form
  */
 
 
@@ -24,7 +24,7 @@ class InputField extends BaseField
     /**
      * Field constructor.
      * 
-     * @param \app\core\Model $model
+     * @param \kurisushinjiro\phpmvc\Model $model
      * @param string          $attribute
      */
     public function __construct(Model $model, string $attribute)

@@ -1,14 +1,14 @@
 <?php
 
-namespace app\core\form;
+namespace kurisushinjiro\phpmvc\form;
 
-use app\core\Model;
+use kurisushinjiro\phpmvc\Model;
 
 /**
  * Class BaseField
  * 
  * @author Chris Boukongou <chrisbouk@outlook.fr>
- * @package app\core\form
+ * @package kurisushinjiro\phpmvc\form
  */
 
 abstract class BaseField
@@ -19,7 +19,7 @@ abstract class BaseField
     /**
      * Field constructor.
      * 
-     * @param \app\core\Model $model
+     * @param \kurisushinjiro\phpmvc\Model $model
      * @param string          $attribute
      */
 

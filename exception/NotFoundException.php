@@ -1,13 +1,13 @@
 <?php
 
-namespace app\core\exception;
+namespace kurisushinjiro\phpmvc\exception;
 
 
 /**
  * Class NotFoundException
  * 
  * @author Chris Boukongou <chrisbouk@outlook.fr>
- * @package app\core\exception
+ * @package kurisushinjiro\phpmvc\exception
  */
 
 class NotFoundException extends \Exception

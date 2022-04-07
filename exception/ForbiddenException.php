@@ -1,13 +1,13 @@
 <?php
 
-namespace app\core\exception;
+namespace kurisushinjiro\phpmvc\exception;
 
 
 /**
  * Class ForbiddenException
  * 
  * @author Chris Boukongou <chrisbouk@outlook.fr>
- * @package app\core\exception
+ * @package kurisushinjiro\phpmvc\exception
  */
 
 class ForbiddenException extends \Exception

@@ -1,12 +1,12 @@
 <?php
 
-namespace app\core;
+namespace kurisushinjiro\phpmvc;
 
 /**
  * Class View
  * 
  * @author Chris Boukongou <chrisbouk@outlook.fr>
- * @package app\core
+ * @package kurisushinjiro\phpmvc
  */
 
 class View

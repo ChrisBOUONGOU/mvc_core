@@ -1,15 +1,15 @@
 <?php
 
-namespace app\core;
+namespace kurisushinjiro\phpmvc;
 
-use app\core\db\Database;
-use app\core\userModel;
+use kurisushinjiro\phpmvc\db\Database;
+use kurisushinjiro\phpmvc\userModel;
 
 /**
  * Class Application
  * 
  * @author Chris Boukongou <chrisbouk@outlook.fr>
- * @package app\core
+ * @package kurisushinjiro\phpmvc
  */
 
 class Application
@@ -71,7 +71,7 @@ class Application
     }
 
     /**
-     * @return \app\core\Controller
+     * @return \kurisushinjiro\phpmvc\Controller
      */
     public function getController(): Controller
     {
@@ -79,7 +79,7 @@ class Application
     }
 
     /**
-     * @param \app\core\Controller $controller
+     * @param \kurisushinjiro\phpmvc\Controller $controller
      */
     public function setController(Controller $controller): void
     {

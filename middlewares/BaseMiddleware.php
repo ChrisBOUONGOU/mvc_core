@@ -1,13 +1,13 @@
 <?php
 
-namespace app\core\middlewares;
+namespace kurisushinjiro\phpmvc\middlewares;
 
 
 /**
  * Class BaseMiddleware
  * 
  * @author Chris Boukongou <chrisbouk@outlook.fr>
- * @package app\core\middlewares
+ * @package kurisushinjiro\phpmvc\middlewares
  */
 
 abstract class BaseMiddleware

@@ -1,13 +1,13 @@
 <?php
 
-namespace app\core\form;
+namespace kurisushinjiro\phpmvc\form;
 
 
 /**
  * Class TextareaField
  * 
  * @author Chris Boukongou <chrisbouk@outlook.fr>
- * @package app\core\form
+ * @package kurisushinjiro\phpmvc\form
  */
 
 class TextareaField extends BaseField

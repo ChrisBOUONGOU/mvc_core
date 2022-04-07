@@ -1,15 +1,15 @@
 <?php
 
 
-namespace app\core\db;
+namespace kurisushinjiro\phpmvc\db;
 
-use app\core\Application;
+use kurisushinjiro\phpmvc\Application;
 
 /**
  * Class Database
  * 
  * @author Chris Boukongou <chrisbouk@outlook.fr>
- * @package app\core
+ * @package kurisushinjiro\phpmvc
  */
 
 
